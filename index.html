@@ -1,325 +1,283 @@
 <!doctype html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Onest:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <a href="#" class="logo">
-            <img src="images/logo.svg" alt="logo" />
-          </a>
-          <button class="burger" aria-label="Меню">
-            <span></span><span></span><span></span>
-          </button>
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="#about" class="menu__link">Про нас</a>
-              </li>
-              <li class="menu__item">
-                <a href="#catalog" class="menu__link">Каталог</a>
-              </li>
-              <li class="menu__item">
-                <a href="#gifts" class="menu__link">Подарунки</a>
-              </li>
-              <li class="menu__item">
-                <a href="#process" class="menu__link">Робочий процес</a>
-              </li>
-            </ul>
-          </nav>
-          <ul class="header__contacts">
-            <li class="header__phone">
-              <a href="tel:+380961234567">+380 96 123 45 67</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>EuroKorch</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Onest:wght@100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="logo">
+          <img src="images/logo.svg" alt="logo" />
+        </a>
+        <button class="burger" aria-label="Меню">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#about" class="menu__link">Про нас</a>
             </li>
-            <li class="header__social">
-              <a
-                class="header__social-link"
-                href="https://m.me/"
-                target="_blank"
-              >
-                <img src="images/messenger.svg" alt="messenger" />
-              </a>
-              <a
-                class="header__social-link"
-                href="https://instagram.com/"
-                target="_blank"
-              >
-                <img src="images/instagram.svg" alt="instagram" />
-              </a>
+            <li class="menu__item">
+              <a href="#catalog" class="menu__link">Каталог</a>
+            </li>
+            <li class="menu__item">
+              <a href="#gifts" class="menu__link">Подарунки</a>
+            </li>
+            <li class="menu__item">
+              <a href="#process" class="menu__link">Робочий процес</a>
             </li>
           </ul>
-        </div>
-      </div>
-    </header>
-
-    <section class="top">
-      <div class="container">
-        <div class="top__inner">
-          <h1 class="top__title">Корч з Європи</h1>
-          <p class="top__slogan">
-            Корч сьогодні —
-            <span class="top__slogan-text">легенда завтра!</span>
-          </p>
-          <p class="top__text">
-            500 тищ пробігу - не проблема! Наші спеціалісти зроблять 50!
-          </p>
-          <a href="#catalog" class="top__scroll">Обрати малишку</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="why" id="about">
-      <div class="why__header">
-        <h2 class="why__title">
-          <span class="accent">Чому нам довіряють</span> справжні чоловіки
-        </h2>
-        <p class="why__description">
-          Ми — компанія, яка не боїться слів «пробіг», «биток» і «втомлена
-          Європа».<br /><span class="accent">Ти точно знаєш:</span><br />що з
-          нею було, що з нею зробили та скільки вона ще протягне!
-        </p>
-      </div>
-      <div class="why__image">
-        <img src="images/section-why-bg.webp" alt="Автомобіль Korch" />
-      </div>
-    </section>
-
-    <section class="gifts" id="gifts">
-      <div class="gifts__header">
-        <h2 class="gifts__title">У подарунок до кожного корча</h2>
-        <p class="gifts__description">
-          Ми знаємо, що дрібниці вирішують.<br />Тому до кожного корча —
-          маленькі, але кайфові подарунки.
-        </p>
-      </div>
-      <div class="gifts__cards">
-        <div class="gifts__card">
-          <img
-            src="images/gift-mats.svg"
-            alt="Коврики"
-            class="gifts__card-icon"
-          />
-          <h3 class="gifts__card-title">Нові<br />коврики</h3>
-          <p class="gifts__card-subtitle">бо старі бачили занадто багато…</p>
-        </div>
-        <div class="gifts__card">
-          <img
-            src="images/gift-aroma.svg"
-            alt="Аромат"
-            class="gifts__card-icon"
-          />
-          <h3 class="gifts__card-title">Аромат<br />"нове авто"</h3>
-          <p class="gifts__card-subtitle">щоб пахло як з люкс салону</p>
-        </div>
-        <div class="gifts__card">
-          <img src="images/gift-fuel.svg" alt="Бак" class="gifts__card-icon" />
-          <h3 class="gifts__card-title">Повний<br />бак</h3>
-          <p class="gifts__card-subtitle">щоб одразу поїхав у нове життя</p>
-        </div>
-        <div class="gifts__card">
-          <img
-            src="images/gift-sticker.svg"
-            alt="Наклейка"
-            class="gifts__card-icon"
-          />
-          <h3 class="gifts__card-title">
-            Наклейка <br /><span class="accent">Euro</span>Korch
-          </h3>
-          <p class="gifts__card-subtitle">щоб всі знали - їде легенда</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="process" id="process">
-      <h2 class="process__title">Наш робочий процес</h2>
-      <div class="process__steps">
-        <div class="process__step">
-          <span class="process__number">01</span>
-          <div class="process__content">
-            <h3 class="process__step-title">Знаходимо</h3>
-            <p class="process__step-text">
-              Ловимо корчі по Європі, які ще не втратили свій характер
-            </p>
-          </div>
-        </div>
-        <div class="process__step">
-          <span class="process__number">02</span>
-          <div class="process__content">
-            <h3 class="process__step-title">Купуємо</h3>
-            <p class="process__step-text">
-              Хапаємо та Вивозимо їх з-за кордону, поки інші не встигли
-            </p>
-          </div>
-        </div>
-        <div class="process__step">
-          <span class="process__number">03</span>
-          <div class="process__content">
-            <h3 class="process__step-title">Лікуємо</h3>
-            <p class="process__step-text">
-              Робимо ін'єкції молодості, та даємо пілюлі довголіття
-            </p>
-          </div>
-        </div>
-        <div class="process__step">
-          <span class="process__number">04</span>
-          <div class="process__content">
-            <h3 class="process__step-title">Віддаємо</h3>
-            <p class="process__step-text">
-              Ти отримуєш легенду — готову робити вітер та шокувати кума.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="park" id="catalog">
-      <div class="park__header">
-        <h2 class="park__title">Парк малишок краще тіндера</h2>
-        <div class="park__filters">
-          <button class="park__filter active" data-filter="all">Всі</button>
-          <button class="park__filter" data-filter="power">Самі потужні</button>
-          <button class="park__filter" data-filter="rusty">
-            кольору айфона(напів ржаві)
-          </button>
-          <button class="park__filter" data-filter="last">Останній шанс</button>
-          <button class="park__filter" data-filter="mileage">
-            МАКСИМАЛЬНИЙ ПРОБІГ
-          </button>
-        </div>
-      </div>
-      <div class="park__grid">
-        <div class="park__card" data-category="power rusty">
-          <div class="park__card-img">
-            <img src="images/car-pajero.webp" alt="Mitsubishi Pajero Sport" />
-          </div>
-          <h3 class="park__card-name">Mitsubishi Pajero Sport 2002 року</h3>
-          <p class="park__card-price">7000 $</p>
-        </div>
-        <div class="park__card" data-category="power mileage">
-          <div class="park__card-img">
-            <img src="images/car-corolla.webp" alt="Toyota Corolla Verso" />
-          </div>
-          <h3 class="park__card-name">Toyota Corolla Verso 2003 року</h3>
-          <p class="park__card-price">6000 $</p>
-        </div>
-        <div class="park__card" data-category="last mileage">
-          <div class="park__card-img">
-            <img src="images/car-transit.webp" alt="Ford Transit Custom" />
-          </div>
-          <h3 class="park__card-name">Ford Transit Custom 2012 року</h3>
-          <p class="park__card-price">10000 $</p>
-        </div>
-        <div class="park__card" data-category="rusty last">
-          <div class="park__card-img">
-            <img
-              src="images/car-outlander.webp"
-              alt="Mitsubishi Outlander XL"
-            />
-          </div>
-          <h3 class="park__card-name">Mitsubishi Outlender XL 2008</h3>
-          <p class="park__card-price">8000 $</p>
-        </div>
-        <div class="park__card" data-category="power rusty">
-          <div class="park__card-img">
-            <img src="images/car-infiniti.webp" alt="Infiniti FX 35" />
-          </div>
-          <h3 class="park__card-name">Infiniti FX 35 2004</h3>
-          <p class="park__card-price">8000 $</p>
-        </div>
-        <div class="park__card" data-category="last mileage">
-          <div class="park__card-img">
-            <img src="images/car-bmw.webp" alt="BMW i3 REX" />
-          </div>
-          <h3 class="park__card-name">BMW i3 REX 2014</h3>
-          <p class="park__card-price">11000$</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact">
-      <div class="contact__container">
-        <div class="contact__info">
-          <h2 class="contact__title">
-            Вже зрозумів, що <br />
-            ми найкращі?
-          </h2>
-          <p class="contact__description">
-            Тоді заповнюй форму та ми пригонимо тобі EvroKorch мрії
-          </p>
-        </div>
-        <form class="contact__form" action="#" method="POST">
-          <div class="contact__field">
-            <input type="text" name="name" placeholder="Ім'я" required />
-          </div>
-          <div class="contact__field">
-            <input type="tel" name="phone" placeholder="Телефон" required />
-          </div>
-          <div class="contact__field">
-            <input type="email" name="email" placeholder="Email" required />
-          </div>
-          <button type="submit" class="contact__submit">Кнопка</button>
-        </form>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="footer__inner">
-        <div class="footer__logo"><span class="accent">Euro</span>Korch</div>
-        <nav class="footer__nav">
-          <a href="#about" class="footer__link">Про нас</a>
-          <a href="#catalog" class="footer__link">Каталог</a>
-          <a href="#gifts" class="footer__link">Подарунки</a>
-          <a href="#process" class="footer__link">Робочій процес</a>
         </nav>
-        <div class="footer__divider"></div>
-        <div class="footer__bottom">
-          <p class="footer__copyright">©2026. Всі права захищені</p>
-          <div class="footer__socials">
-            <a
-              href="https://instagram.com/"
-              target="_blank"
-              class="footer__social-link"
-              aria-label="Instagram"
-            >
-              <img
-                src="images/icon-instagram.svg"
-                alt="Instagram"
-                width="26"
-                height="26"
-              />
+        <ul class="header__contacts">
+          <li class="header__phone">
+            <a href="tel:+380961234567">+380 96 123 45 67</a>
+          </li>
+          <li class="header__social">
+            <a class="header__social-link" href="https://m.me/" target="_blank">
+              <img src="images/messenger.svg" alt="messenger" />
             </a>
-            <a
-              href="https://t.me/"
-              target="_blank"
-              class="footer__social-link"
-              aria-label="Telegram"
-            >
-              <img
-                src="images/icon-telegram.svg"
-                alt="Telegram"
-                width="26"
-                height="26"
-              />
+            <a class="header__social-link" href="https://instagram.com/" target="_blank">
+              <img src="images/instagram.svg" alt="instagram" />
             </a>
-          </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="top">
+    <div class="container">
+      <div class="top__inner">
+        <h1 class="top__title">Корч з Європи</h1>
+        <p class="top__slogan">
+          Корч сьогодні —
+          <span class="top__slogan-text">легенда завтра!</span>
+        </p>
+        <p class="top__text">
+          500 тищ пробігу - не проблема! Наші спеціалісти зроблять 50!
+        </p>
+        <a href="#catalog" class="top__scroll">Обрати малишку</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="why" id="about">
+    <div class="why__header">
+      <h2 class="why__title">
+        <span class="accent">Чому нам довіряють</span> справжні чоловіки
+      </h2>
+      <p class="why__description">
+        Ми — компанія, яка не боїться слів «пробіг», «биток» і «втомлена
+        Європа».<br /><span class="accent">Ти точно знаєш:</span><br />що з
+        нею було, що з нею зробили та скільки вона ще протягне!
+      </p>
+    </div>
+    <div class="why__image">
+      <img src="images/section-why-bg.webp" alt="Автомобіль Korch" />
+    </div>
+  </section>
+
+  <section class="gifts" id="gifts">
+    <div class="gifts__header">
+      <h2 class="gifts__title">У подарунок до кожного корча</h2>
+      <p class="gifts__description">
+        Ми знаємо, що дрібниці вирішують.<br />Тому до кожного корча —
+        маленькі, але кайфові подарунки.
+      </p>
+    </div>
+    <div class="gifts__cards">
+      <div class="gifts__card">
+        <img src="images/gift-mats.svg" alt="Коврики" class="gifts__card-icon" />
+        <h3 class="gifts__card-title">Нові<br />коврики</h3>
+        <p class="gifts__card-subtitle">бо старі бачили занадто багато…</p>
+      </div>
+      <div class="gifts__card">
+        <img src="images/gift-aroma.svg" alt="Аромат" class="gifts__card-icon" />
+        <h3 class="gifts__card-title">Аромат<br />"нове авто"</h3>
+        <p class="gifts__card-subtitle">щоб пахло як з люкс салону</p>
+      </div>
+      <div class="gifts__card">
+        <img src="images/gift-fuel.svg" alt="Бак" class="gifts__card-icon" />
+        <h3 class="gifts__card-title">Повний<br />бак</h3>
+        <p class="gifts__card-subtitle">щоб одразу поїхав у нове життя</p>
+      </div>
+      <div class="gifts__card">
+        <img src="images/gift-sticker.svg" alt="Наклейка" class="gifts__card-icon" />
+        <h3 class="gifts__card-title">
+          Наклейка <br /><span class="accent">Euro</span>Korch
+        </h3>
+        <p class="gifts__card-subtitle">щоб всі знали - їде легенда</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <h2 class="process__title">Наш робочий процес</h2>
+    <div class="process__steps">
+      <div class="process__step">
+        <span class="process__number">01</span>
+        <div class="process__content">
+          <h3 class="process__step-title">Знаходимо</h3>
+          <p class="process__step-text">
+            Ловимо корчі по Європі, які ще не втратили свій характер
+          </p>
         </div>
       </div>
-    </footer>
+      <div class="process__step">
+        <span class="process__number">02</span>
+        <div class="process__content">
+          <h3 class="process__step-title">Купуємо</h3>
+          <p class="process__step-text">
+            Хапаємо та Вивозимо їх з-за кордону, поки інші не встигли
+          </p>
+        </div>
+      </div>
+      <div class="process__step">
+        <span class="process__number">03</span>
+        <div class="process__content">
+          <h3 class="process__step-title">Лікуємо</h3>
+          <p class="process__step-text">
+            Робимо ін'єкції молодості, та даємо пілюлі довголіття
+          </p>
+        </div>
+      </div>
+      <div class="process__step">
+        <span class="process__number">04</span>
+        <div class="process__content">
+          <h3 class="process__step-title">Віддаємо</h3>
+          <p class="process__step-text">
+            Ти отримуєш легенду — готову робити вітер та шокувати кума.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="js/main.js"></script>
-  </body>
+  <section class="park" id="catalog">
+    <div class="park__header">
+      <h2 class="park__title">Парк малишок краще тіндера</h2>
+      <div class="park__filters">
+        <button class="park__filter active" data-filter="all">Всі</button>
+        <button class="park__filter" data-filter="power">Самі потужні</button>
+        <button class="park__filter" data-filter="rusty">
+          кольору айфона(напів ржаві)
+        </button>
+        <button class="park__filter" data-filter="last">Останній шанс</button>
+        <button class="park__filter" data-filter="mileage">
+          МАКСИМАЛЬНИЙ ПРОБІГ
+        </button>
+      </div>
+    </div>
+    <div class="park__grid">
+      <div class="park__card" data-category="power rusty">
+        <div class="park__card-img">
+          <img src="images/car-pajero.webp" alt="Mitsubishi Pajero Sport" />
+        </div>
+        <h3 class="park__card-name">Mitsubishi Pajero Sport 2002 року</h3>
+        <p class="park__card-price">7000 $</p>
+      </div>
+      <div class="park__card" data-category="power mileage">
+        <div class="park__card-img">
+          <img src="images/car-corolla.webp" alt="Toyota Corolla Verso" />
+        </div>
+        <h3 class="park__card-name">Toyota Corolla Verso 2003 року</h3>
+        <p class="park__card-price">6000 $</p>
+      </div>
+      <div class="park__card" data-category="last mileage">
+        <div class="park__card-img">
+          <img src="images/car-transit.webp" alt="Ford Transit Custom" />
+        </div>
+        <h3 class="park__card-name">Ford Transit Custom 2012 року</h3>
+        <p class="park__card-price">10000 $</p>
+      </div>
+      <div class="park__card" data-category="rusty last">
+        <div class="park__card-img">
+          <img src="images/car-outlander.webp" alt="Mitsubishi Outlander XL" />
+        </div>
+        <h3 class="park__card-name">Mitsubishi Outlender XL 2008</h3>
+        <p class="park__card-price">8000 $</p>
+      </div>
+      <div class="park__card" data-category="power rusty">
+        <div class="park__card-img">
+          <img src="images/car-infiniti.webp" alt="Infiniti FX 35" />
+        </div>
+        <h3 class="park__card-name">Infiniti FX 35 2004</h3>
+        <p class="park__card-price">8000 $</p>
+      </div>
+      <div class="park__card" data-category="last mileage">
+        <div class="park__card-img">
+          <img src="images/car-bmw.webp" alt="BMW i3 REX" />
+        </div>
+        <h3 class="park__card-name">BMW i3 REX 2014</h3>
+        <p class="park__card-price">11000$</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="contact__container">
+      <div class="contact__info">
+        <h2 class="contact__title">
+          Вже зрозумів, що <br />
+          ми найкращі?
+        </h2>
+        <p class="contact__description">
+          Тоді заповнюй форму та ми пригонимо тобі EvroKorch мрії
+        </p>
+      </div>
+      <form class="contact__form" action="#" method="POST">
+        <div class="contact__field">
+          <input type="text" name="name" placeholder="Ім'я" required />
+        </div>
+        <div class="contact__field">
+          <input type="tel" name="phone" placeholder="Телефон" required />
+        </div>
+        <div class="contact__field">
+          <input type="email" name="email" placeholder="Email" required />
+        </div>
+        <button type="submit" class="contact__submit">Кнопка</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__logo"><span class="accent">Euro</span>Korch</div>
+      <nav class="footer__nav">
+        <a href="#about" class="footer__link">Про нас</a>
+        <a href="#catalog" class="footer__link">Каталог</a>
+        <a href="#gifts" class="footer__link">Подарунки</a>
+        <a href="#process" class="footer__link">Робочій процес</a>
+      </nav>
+      <div class="footer__divider"></div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">©2026. Всі права захищені</p>
+        <div class="footer__socials">
+          <a href="https://instagram.com/" target="_blank" class="footer__social-link" aria-label="Instagram">
+            <img src="images/icon-instagram.svg" alt="Instagram" width="26" height="26" />
+          </a>
+          <a href="https://t.me/" target="_blank" class="footer__social-link" aria-label="Telegram">
+            <img src="images/icon-telegram.svg" alt="Telegram" width="26" height="26" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
 </html>
