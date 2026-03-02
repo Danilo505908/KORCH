@@ -13,7 +13,9 @@ a {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
-  transition: opacity 0.3s ease, color 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    color 0.3s ease;
 }
 
 ul {
@@ -25,7 +27,9 @@ button {
   padding: 0;
   border: 0;
   cursor: pointer;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 
 body {
@@ -123,9 +127,9 @@ body {
 }
 
 .top::after {
-  content: '';
+  content: "";
   position: absolute;
-  background-image: url('../images/top-bg.png');
+  background-image: url("../images/top-bg.webp");
   width: 100%;
   max-width: 1400px;
   height: 100vh;
@@ -191,7 +195,10 @@ body {
   align-self: flex-start;
   margin: 0 15px;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
   position: relative;
   z-index: 10;
 }
@@ -325,7 +332,9 @@ body {
   flex: 1;
   min-width: 220px;
   max-width: 289px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .gifts__card:hover {
@@ -354,7 +363,7 @@ body {
   font-size: 18px;
   line-height: 1;
   text-align: center;
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 
 /* =====================
@@ -400,7 +409,11 @@ body {
   font-size: 112px;
   line-height: 1.2;
   letter-spacing: -0.03em;
-  background: linear-gradient(180deg, rgba(72, 146, 82, 1) 0%, rgba(72, 146, 82, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(72, 146, 82, 1) 0%,
+    rgba(72, 146, 82, 0) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -429,7 +442,7 @@ body {
   font-size: 16px;
   line-height: 1.4;
   letter-spacing: -0.02em;
-  color: #909DA2;
+  color: #909da2;
 }
 
 /* =====================
@@ -482,9 +495,12 @@ body {
   border-radius: 11px;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
-  background-color: #F3F5F6;
-  color: #22282B;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.2s ease;
+  background-color: #f3f5f6;
+  color: #22282b;
 }
 
 .park__filter:hover {
@@ -503,7 +519,9 @@ body {
 }
 
 .park__card {
-  transition: opacity 0.4s ease, transform 0.4s ease;
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
 }
 
 .park__card.hidden {
@@ -549,7 +567,7 @@ body {
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: -0.02em;
-  color: #909DA2;
+  color: #909da2;
 }
 
 /* =====================
@@ -564,7 +582,7 @@ body {
 }
 
 .contact__container {
-  border: 2px solid #E6E9EA;
+  border: 2px solid #e6e9ea;
   border-radius: 20px;
   padding: 34px 50px;
   display: flex;
@@ -596,7 +614,7 @@ body {
   font-size: 21px;
   line-height: 1.3;
   letter-spacing: -0.02em;
-  color: #909DA2;
+  color: #909da2;
 }
 
 .contact__form {
@@ -611,20 +629,20 @@ body {
 .contact__field input {
   width: 100%;
   height: 58px;
-  background-color: #F3F5F6;
+  background-color: #f3f5f6;
   border-radius: 11px;
   border: none;
   padding: 0 25px;
   font-family: "Inter", "Onest", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #22282B;
+  color: #22282b;
   outline: none;
   transition: box-shadow 0.3s ease;
 }
 
 .contact__field input::placeholder {
-  color: #22282B;
+  color: #22282b;
   opacity: 0.7;
 }
 
@@ -635,7 +653,7 @@ body {
 .contact__submit {
   width: 100%;
   height: 58px;
-  background-color: #448A4E;
+  background-color: #448a4e;
   color: #fff;
   border-radius: 10px;
   border: none;
@@ -645,7 +663,9 @@ body {
   line-height: 1.2;
   letter-spacing: -0.02em;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -710,7 +730,7 @@ body {
 .footer__divider {
   width: 100%;
   height: 1px;
-  background-color: #E6E9EA;
+  background-color: #e6e9ea;
   margin-bottom: 25px;
 }
 
@@ -727,7 +747,7 @@ body {
   font-size: 16px;
   line-height: 1.4;
   letter-spacing: -0.02em;
-  color: #909DA2;
+  color: #909da2;
 }
 
 .footer__socials {
@@ -742,7 +762,9 @@ body {
   justify-content: center;
   width: 26px;
   height: 26px;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 
 .footer__social-link:hover {
@@ -776,7 +798,9 @@ body {
   height: 2px;
   background-color: #fff;
   border-radius: 2px;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
 }
 
 .burger.active span:nth-child(1) {
